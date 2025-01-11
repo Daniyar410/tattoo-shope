@@ -1,5 +1,6 @@
 .header{
     background-color: #050402;
+    padding-top: 30px;
 }
 
 .wrap__header {
@@ -7,11 +8,10 @@
     justify-content: space-between;
     align-items: center;
 
-    color: white;
+    
+    h2{
+        color: white;
 
-    input{
-        border: 1px solid #524336;
-        background-color: #050402;
     }
 }
 

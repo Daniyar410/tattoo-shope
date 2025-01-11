@@ -21,7 +21,6 @@ const Header = () => {
                 <div className="container">
                     <div className="wrap__header">
                         <h2>Каталог</h2>
-                        <input type="text" placeholder='Поиск' />
 
                         <div className={`menu ${isActive ? 'active' : ''}`}>
                             <a href="">Промокоды</a>
