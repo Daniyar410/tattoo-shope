@@ -11,6 +11,9 @@ const MySwiper = () => {
         { id: 4, img: "/tattoo-kwadron.png" },
         { id: 5, img: "/tattoo-aloe.png" },
         { id: 6, img: "/tattoo-cheyenne.png" },
+        { id: 7, img: "/tattoo-ho.png" },
+        { id: 8, img: "/tattoo-kuro.png" },
+
     ];
     const [currentIndex, setCurrentIndex] = useState(0);
 

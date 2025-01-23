@@ -21,9 +21,8 @@ const Footer = () => {
                     <img src="/logo.png" alt="" data-aos="fade-right" />
                     <div className="footer__menu" data-aos="fade-left">
                         <a href="">Популярные бренды</a>
-                        <a href="">Зарегистрироваться</a>
-                        <a href="">О нас</a>
-                        <a href="">Каталог</a>
+                        <a href="/entrance">Вход</a>
+                        <a href="/about-us">О нас</a>
                     </div>
                     <div className="footer__mail" data-aos="fade-up">
                         <div className="text text1" data-aos="zoom-in" data-aos-delay="200">

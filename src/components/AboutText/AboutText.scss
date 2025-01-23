@@ -1,0 +1,27 @@
+.about-us{
+
+    
+    background-color: black;
+
+    padding: 70px 0;
+}
+.about__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    img{
+        width: 650px;
+    }
+
+    p{
+        padding-top: 20px;
+        color: whitesmoke;
+    }
+
+    h3{
+        color: #BB8C5F;
+        font-size: 45px;
+    }
+}

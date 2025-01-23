@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './Header.scss'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 
@@ -29,13 +30,14 @@ const Header = () => {
             <header className='header'>
                 <div className="container">
                     <div className="wrap__header">
-                        <h2 data-aos="fade-down">Каталог</h2>
+                        <Link to={'/'}>
+                        <h1 data-aos="fade-down">Главное</h1>
+                        </Link>
 
                         <div className={`menu ${isActive ? 'active' : ''}`} data-aos="fade-left" data-aos-delay="200">
                             <a href="">Популятрные бренды</a>
-                            <a href="">Зарегистрироваться</a>
-                            <a href="">О нас</a>
-                            <a href="">Каталог</a>
+                            <a href="/entrance">Вход</a>
+                            <a href="/about-us">О нас</a>
                         </div>
 
                         <div onClick={tooggleBurger} className={`burger ${isActive ? 'active' : ''}`} data-aos="fade-right" data-aos-delay="400">

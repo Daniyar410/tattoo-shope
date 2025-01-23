@@ -72,6 +72,7 @@ const TabsProducts = () => {
                             </div>
                         </div>
                     </TabPanel>
+                    
                     <TabPanel>
                         <div className="tads__wrap">
                             <div className="card" data-aos="fade-up">
