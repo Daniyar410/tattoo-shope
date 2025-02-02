@@ -35,7 +35,6 @@ const Header = () => {
                         </Link>
 
                         <div className={`menu ${isActive ? 'active' : ''}`} data-aos="fade-left" data-aos-delay="200">
-                            <a href="">Популятрные бренды</a>
                             <a href="/entrance">Вход</a>
                             <a href="/about-us">О нас</a>
                         </div>

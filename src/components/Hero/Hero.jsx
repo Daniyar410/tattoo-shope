@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './Hero.scss'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   // Инициализируем AOS
@@ -23,9 +24,11 @@ const Hero = () => {
               <p data-aos="fade-up" data-aos-delay="200">
                 Оборудование и расходники для самых <br /> ярких и качественных работ
               </p>
-              <button data-aos="fade-up" data-aos-delay="400">
-                Смотреть бренды
-              </button>
+              <Link to={'/about-us'}>
+                <button data-aos="fade-up" data-aos-delay="400">
+                  О нас
+                </button>
+              </Link>
             </div>
           </div>
         </div>

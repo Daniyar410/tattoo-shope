@@ -1,75 +1,76 @@
 {
-    "tabs": [
-      {
-        "title": "Самые популярные",
-        "products": [
-          {
-            "image": "/product-gl1.png",
-            "name": "Нитровиниловые перчатки Wally Plastic S",
-            "price": "1$"
-          },
-          {
-            "image": "/product-fc1.png",
-            "name": "Forever Cartridge Grip Ergo 30 мм Огненно-Рыжий",
-            "price": "800$"
-          },
-          {
-            "image": "/product-tp1.png",
-            "name": "CNC X-WE Wireless Tattoo Pen",
-            "price": "400$"
-          },
-          {
-            "image": "/product-tp2.png",
-            "name": "MT Vader Pen MT RCA Cord PRO 2000.135",
-            "price": "600$"
-          },
-          {
-            "image": "/product-tm7.png",
-            "name": "Verge Direct 2.1 Black",
-            "price": "750$"
-          },
-          {
-            "image": "/product-tm8.png",
-            "name": "Foxxx Kitsune Mini Vintage Aging With Gold RCA",
-            "price": "450$"
-          }
-        ]
-      },
-      {
-        "title": "Новые поступления",
-        "products": [
-          {
-            "image": "/product-tm1.png",
-            "name": "Foxxx Kitsune Mini Black Vintage RCA",
-            "price": "650$"
-          },
-          {
-            "image": "/product-tm2.png",
-            "name": "Foxxx Viper Fox Golden Vintage Lot #1 RCA",
-            "price": "800$"
-          },
-          {
-            "image": "/product-tm3.png",
-            "name": "Cyborg Machines Alter Rotary Axis Cross Sexy Nymph",
-            "price": "700$"
-          },
-          {
-            "image": "/product-tm4.png",
-            "name": "Deuce Machines Direct Drive #7 RCA Samurai",
-            "price": "700$"
-          },
-          {
-            "image": "/product-tm5.png",
-            "name": "Verge Direct 2.1 Pink gip EGO 4 mm liners",
-            "price": "750$"
-          },
-          {
-            "image": "/product-tm6.png",
-            "name": "Verge Direct 2.1 Gunmetal",
-            "price": "650$"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "tabs": [
+    {
+      "id": 1,
+      "image": "/product-gl1.png",
+      "name": "Нитровиниловые перчатки Wally Plastic S",
+      "price": "1$"
+    },
+    {
+      "id": 2,
+      "image": "/product-fc1.png",
+      "name": "Forever Cartridge Grip Ergo 30 мм Огненно-Рыжий",
+      "price": "800$"
+    },
+    {
+      "id": 3,
+      "image": "/product-tp1.png",
+      "name": "CNC X-WE Wireless Tattoo Pen",
+      "price": "400$"
+    },
+    {
+      "id": 4,
+      "image": "/product-tp2.png",
+      "name": "MT Vader Pen MT RCA Cord PRO 2000.135",
+      "price": "600$"
+    },
+    {
+      "id": 5,
+      "image": "/product-tm7.png",
+      "name": "Verge Direct 2.1 Black",
+      "price": "750$"
+    },
+    {
+      "id": 6,
+      "image": "/product-tm8.png",
+      "name": "Foxxx Kitsune Mini Vintage Aging With Gold RCA",
+      "price": "450$"
+    },
+    {
+      "id": 7,
+      "image": "/product-tm1.png",
+      "name": "Foxxx Kitsune Mini Black Vintage RCA",
+      "price": "650$"
+    },
+    {
+      "id": 8,
+      "image": "/product-tm2.png",
+      "name": "Foxxx Viper Fox Golden Vintage Lot #1 RCA",
+      "price": "800$"
+    },
+    {
+      "id": 9,
+      "image": "/product-tm3.png",
+      "name": "Cyborg Machines Alter Rotary Axis Cross Sexy Nymph",
+      "price": "700$"
+    },
+    {
+      "id": 10,
+      "image": "/product-tm4.png",
+      "name": "Deuce Machines Direct Drive #7 RCA Samurai",
+      "price": "700$"
+    },
+    {
+      "id": 11,
+      "image": "/product-tm5.png",
+      "name": "Verge Direct 2.1 Pink gip EGO 4 mm liners",
+      "price": "750$"
+    },
+    {
+      "id": 12,
+      "image": "/product-tm6.png",
+      "name": "Verge Direct 2.1 Gunmetal",
+      "price": "650$"
+    }
+  ]
+}

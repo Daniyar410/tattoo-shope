@@ -10,13 +10,13 @@ $border-color: #ddd;
     align-items: center;
     justify-content: center;
     min-height: 70vh;
-    background-color: #f9f9f9;
+    background-color: #777676;
     padding: 20px;
 
-    background-color: #777676;
     h1 {
         color: $text-color;
         margin-bottom: 20px;
+        text-align: center;
     }
 
     .registration-form {
@@ -63,6 +63,7 @@ $border-color: #ddd;
             font-size: 16px;
             cursor: pointer;
             width: 100%;
+            transition: background 0.3s ease-in-out;
 
             &:hover {
                 background-color: darken($primary-color, 10%);
@@ -74,6 +75,7 @@ $border-color: #ddd;
         margin-top: 20px;
         font-size: 14px;
         color: $text-color;
+        text-align: center;
 
         a {
             color: $primary-color;
@@ -83,5 +85,37 @@ $border-color: #ddd;
                 text-decoration: underline;
             }
         }
+    }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+    .registration-container {
+        padding: 15px;
+    }
+
+    .registration-form {
+        padding: 20px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .registration-form {
+        padding: 15px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .form-group input {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+        padding: 8px;
     }
 }

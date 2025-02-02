@@ -1,0 +1,149 @@
+.admin-panel {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px;
+            background: #BB8C5F;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+
+            &:hover {
+                background: darken(#BB8C5F, 10%);
+            }
+        }
+    }
+
+    &__products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .product-card {
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #333;
+        }
+
+        b {
+            font-size: 16px;
+            color: #BB8C5F;
+        }
+    }
+}
+
+.admin {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+    .admin-panel {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .admin-panel__products {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .product-card {
+        padding: 8px;
+
+        p {
+            font-size: 13px;
+        }
+
+        b {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .admin-panel {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    .admin-panel__products {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+    }
+
+    .product-card {
+        padding: 6px;
+
+        p {
+            font-size: 12px;
+        }
+
+        b {
+            font-size: 14px;
+        }
+    }
+
+    .admin-panel__form input,
+    .admin-panel__form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+.delete-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #BB8C5F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s;
+    margin: 0 10px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
