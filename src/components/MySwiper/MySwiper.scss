@@ -25,7 +25,7 @@
 
     .slide-img {
       width: 100%;
-      max-width: 300px;
+      max-width: 350px;
       height: auto;
       border-radius: 8px;
       margin-bottom: 10px;
@@ -33,7 +33,7 @@
     }
 
     .slide-text {
-      font-size: 18px;
+      font-size: 20px;
       font-weight: 500;
       color: #333;
       text-align: center;
@@ -50,13 +50,33 @@
 }
 
 // Адаптивность
+@media (max-width: 1024px) {
+  .swiper-container {
+    padding: 30px 15px;
+
+    .slide {
+      .slide-img {
+        max-width: 280px;
+      }
+
+      .slide-text {
+        font-size: 18px;
+      }
+    }
+
+    .progress {
+      font-size: 17px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .swiper-container {
     padding: 20px 10px;
 
     .slide {
       .slide-img {
-        max-width: 200px;
+        max-width: 220px;
       }
 
       .slide-text {
@@ -72,11 +92,11 @@
 
 @media (max-width: 480px) {
   .swiper-container {
-    padding: 10px;
+    padding: 15px;
 
     .slide {
       .slide-img {
-        max-width: 150px;
+        max-width: 160px;
       }
 
       .slide-text {

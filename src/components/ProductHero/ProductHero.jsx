@@ -6,6 +6,7 @@ import './ProductHero.scss';
 const ProductHero = ({ product }) => {
   const [address, setAddress] = useState('');
   const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
 
   useEffect(() => {
     AOS.init({
@@ -16,7 +17,8 @@ const ProductHero = ({ product }) => {
   }, []);
 
   const handleOrder = () => {
-    console.log('Заказ оформлен:', { address, phone, product });
+    const deliveryDays = Math.floor(Math.random() * 7) + 1;
+    setMessage(`Заказ придет через ${deliveryDays} дней.`);
   };
 
   return (
@@ -51,6 +53,7 @@ const ProductHero = ({ product }) => {
               <button onClick={handleOrder} data-aos="flip-up" data-aos-delay="600">
                 Заказать
               </button>
+              {message && <p className="product__message">{message}</p>}
             </div>
           </div>
         </div>
